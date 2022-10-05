@@ -10,7 +10,7 @@ from botocore.exceptions import ClientError
 
 def get_secret():
 
-    secret_name = "poc"
+    secret_name = "poc_c2"
     region_name = "ap-south-1"
 
     # Create a Secrets Manager client
